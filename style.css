@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/figma\ image1.jpg);
+    height: 120vh;
+    
+}
+
+
+.nav {
+    /* margin: 10px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    padding-left: 300px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.nav img {
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.buttons {
+    padding-top: 15px;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.btn-1 {
+    margin-right: 20px;
+    padding: 6px 30px 6px 30px;
+    border: 1px solid #191970;
+    background: #191970;
+    color: #fff;
+    border-radius: 0.5em;
+}
+
+.btn-2 {
+    margin-right: 70px;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid  #fff;
+    color: #fff;
+    border-radius: 0.5em;
+}
+
+.text {
+    margin: 70px;
+    font-family: poppins;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    line-height: 1.2em;
+}
+
+.txt1 {
+    color: #191970;
+}
+
+.text p {
+    color: #fff;
+}
+
+.text button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #191970;
+    color: #fff;
+}
+
+#section-2 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 100px;
+}
+
+.find-sch1 {
+    padding: 50px 150px;
+    width: 580px;
+    font-family: poppins;
+}
+
+.find-sch1 h2 {
+    color: #333;
+    font-size: 1.7em;
+    line-height: 3em;
+}
+
+.find-sch1 p {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.find-sch1 button {
+    margin-top: 10px;
+    margin-left: 80px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #191970;
+    color: #fff;
+}
+
+.find-sch2 {
+    padding: 50px 50px;
+    /* width: 450px; */
+    font-family: poppins;
+}
+
+.find-sch2 h2 {
+    color: #333;
+    font-size: 2.5em;
+    line-height: 3em;
+}
+
+.find-sch2 p {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2em;
+    padding-left: 50px;
+    width: 300px;
+}
+
+.find-sch2 button {
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #191970;
+    color: #fff;
+}
+/* .image3 {
+    padding-right: 300px;
+} */
+
+
+.find-sch3 {
+    padding: 50px 50px;
+    font-family: poppins;
+}
+
+.find-sch3 h2 {
+    color: #333;
+    font-size: 2.5em;
+    line-height: 3em;
+}
+
+.find-sch3 p {
+    color: #333;
+    text-align: center;
+    width: 320px;
+    padding-left: 50px;
+    margin-bottom: 2em;
+}
+
+.find-sch3 button {
+    margin-top: 70px;
+    margin-left: 120px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background: #191970;
+    color: #fff;
+}
+
+footer {
+    background: #191970;
+    height: 50vh;
+}
+
+.foot-text {
+    color: #fff;
+    font-family: poppins;
+    padding: 40px 120px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-text button {
+    /* display: inline; */
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    color: #191970;
+}
+
+.line {
+    color: #fff;
+    margin-top: -5em;
+    padding-top: 0;
+    margin-left: 120px;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.foot-logo img {
+    width: 80px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.links ul li{
+    list-style: none;
+    line-height: 2em;
+    text-align: center;
+    font-family: poppins;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.icons {
+    margin-right: 100px;
+    text-align: center;
+}
+
+.icons h4{
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: poppins;
+}
+
+.icons i {
+    width: 45px;
+    font-size: 30px;
+    color: #fff;
+}
