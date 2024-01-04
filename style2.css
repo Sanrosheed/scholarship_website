@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&family=Staatliches&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.dash-side {
+  background: #191970;
+  width: 20%;
+  height: 100vh;
+}
+
+.side-bar {
+  padding: 50px 50px;
+}
+
+.logodash img {
+  width: 50px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.side-bar ul li {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 13px;
+  list-style-type: none;
+  font-family: poppins;
+}
+
+.side-bar ul li i {
+  padding-right: 10px;
+}
+
+.main {
+  width: 80%;
+}
+
+.wel-text {
+  color: #191970;
+}
+
+.top {
+  display: flex;
+  gap: 20rem;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.about-icons {
+  display: flex;
+  border: 1px solid;
+  padding: 8px 18px;
+  border-radius: 50px;
+}
+
+input {
+  border-radius: 50px;
+  padding: 8px 15px;
+  background: gainsboro;
+  border: none;
+}
